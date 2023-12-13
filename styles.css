@@ -1,0 +1,104 @@
+ html {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Dhurjati', sans-serif;
+}
+
+body 
+{
+  background-color: black;
+}
+
+.heading
+{
+  font-family: 'Dhurjati';
+  color: white;
+}
+
+.navi
+{
+  color: white;
+  font-family: 'Titillium Web';
+}
+
+.thebod 
+{
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 100%, rgba(8,20,36,1) 0%);
+  width: 100%;
+  height: 100;
+}
+
+.thebod:hover 
+{
+  
+}
+
+.expansion 
+{
+  transition: transform 0.2s ease-in-out;
+}
+
+.expansion:hover 
+{
+  transform: scale(1.025);
+}
+
+.icons 
+{
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icons:hover 
+{
+  transform: scale(1.2);
+  /*
+  width: 40px;
+  height: 40px;
+  */
+}
+
+.btn-slide-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-slide-overlay {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 0;
+  height: 100%;
+  background-color: yellow; 
+  transition: left 0.3s ease-in-out, width 0.3s ease-in-out; 
+}
+
+.btn-slide-container:hover .btn-slide-overlay {
+  left: 0; 
+  width: 100%; 
+}
+
+.about
+{
+  /*font-family: 'Dhurjati';*/
+  font-family: 'Titillium Web';
+  font-weight: lighter;
+  color: white;
+  background-color: black;
+ }
+
+ .about-description
+{
+  font-family: 'Titillium Web';
+  font-weight: bold;
+  color: white;
+  background-color: black;
+ }
+
+ .foot 
+ {
+  color: lightgrey;
+  font-family: 'Titillium Web';
+ }
