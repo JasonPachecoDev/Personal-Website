@@ -51,6 +51,20 @@ body
   transition: transform 0.2s ease-in-out;
 }
 
+@media (max-width: 768px) 
+{
+  .icons 
+  {
+    width: 25px;
+    height: 25px;
+  }
+
+  .smiley 
+  {
+    display: none;
+  }
+}
+
 .icons:hover 
 {
   transform: scale(1.2);
@@ -100,5 +114,7 @@ body
  .foot 
  {
   color: lightgrey;
+  background-color: transparent;
   font-family: 'Titillium Web';
+  bottom: 0;
  }
