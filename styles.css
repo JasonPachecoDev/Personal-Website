@@ -1,6 +1,6 @@
  html {
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
   font-family: 'Dhurjati', sans-serif;
 }
@@ -10,10 +10,41 @@ body
   background-color: black;
 }
 
+
+.custom-pointer {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white; /* Set the background color to white */
+  border: 2px solid #007bff;
+  pointer-events: none;
+  transition: background-color 0.3s ease-out;
+}
+
+.clickable-element:hover + .custom-pointer {
+  background-color: #007bff;
+}
+
+
+.default-text
+{
+  color: white;
+  font-family: 'Titillium Web';
+  text-decoration: none;
+}
+
 .heading
 {
   font-family: 'Dhurjati';
   color: white;
+}
+
+.links 
+{
+ text-decoration: none;
+ color: white;
+ font-family: 'Titillium Web';
 }
 
 .navi
@@ -118,3 +149,21 @@ body
   font-family: 'Titillium Web';
   bottom: 0;
  }
+
+.content
+{
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: black;
+
+  height: auto;
+}
+
+.project-list
+{
+  color: white;
+}
+
+
+
+
