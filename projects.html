@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="node_modules/@xterm/xterm/css/xterm.css" />
     <script src="https://cdn.jsdelivr.net/npm/xterm@5.3.0/lib/xterm.js"></script>
   </head>
-<body class="header finisher-header" style="width: 100%; height: 100%;">
+<body class="header finisher-header thebod" style="width: 100vw; height: 100vh;">
 
   <div class="container">
       <div class="row mt-5"></div>
@@ -22,14 +22,14 @@
       <div class="row">
         <div class="col"></div>      
         <div class="col-10 col-md-8 text-start content">       
-          <button onclick="window.location.href='index.html'" class="btn btn-no-outline default-text ps-3 pt-4" type="button">back</button>       
+          <button onclick="window.location.href='index.html'" class="btn btn-no-outline default-text ps-3 pt-4 navbtn" type="button">back</button>       
           <h1 class="display-3  heading pt-1 d-mt text-center">Projects</h1>            
-          <ul class="default-text mx-3 px-3 py-4">
-            <li><h4><a href="https://github.com/JasonPachecoDev/Terminal-Arena-Game.git" class="project-list">Terminal Game</a></h4>
-            <li><h4> <a href="https://github.com/JasonPachecoDev/WindowOpener" class="project-list">Window Opener</a></h4></li>
-            <li><h4> <a href="https://github.com/JasonPachecoDev/SpamBot" class="project-list">Spam Bot</a></h4></li>
-            <li><h4> <a href="" class="project-list">CMS</a></h4></li>
-            <li><h4> <a href="" class="project-list">Digital Lock Pick</a></h4></li>
+          <ul class="default-text mx-3 px-3 py-4" style="list-style: none;">
+            <li><h4><a href="https://discoaux.com" class="project-list" target="_blank" style="color:beige">DiscoAux</a></h4></li>
+            <li><h4><a href="https://github.com/JasonPachecoDev/Terminal-Arena-Game.git" class="project-list" target="_blank" style="color:beige">Terminal Game</a></h4></li>
+            <li><h4> <a href="https://github.com/JasonPachecoDev/WindowOpener" class="project-list" target="_blank" style="color:beige">Window Opener</a></h4></li>
+            <li><h4> <a href="" class="project-list" style="color:beige">SQLite Clone</a></h4></li>
+            <li><h4> <a href="" class="project-list" style="color:beige">Quantitative Trading Algorithm</a></h4></li>
           </ul>
         </div>
         <div class="col"></div>
@@ -39,10 +39,6 @@
   <div class="row mb-md-5"></div>
       <div class="row mb-md-5"></div>
       <div class="row mb-5"></div>
-
-  <footer class="pb-1 text-center foot">
-    <p>&copy; 2024 Jason Pacheco. All rights reserved.</p>
-  </footer>
 
   <script src="terminal.js" type="module"></script>
     <script src="finisher-header.es5.min.js" type="text/javascript"></script>
