@@ -1,6 +1,5 @@
  html {
-  height: 100vh;
-  overflow-y: auto;
+  overflow-y: hidden !important;
   overflow-x: hidden !important;
   margin: 0;
   padding: 0;
